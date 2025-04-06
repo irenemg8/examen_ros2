@@ -1,0 +1,6 @@
+source;share/ex_recu_24_preg_02/hook/pythonpath.ps1
+source;share/ex_recu_24_preg_02/hook/pythonpath.dsv
+source;share/ex_recu_24_preg_02/hook/pythonpath.sh
+source;share/ex_recu_24_preg_02/hook/ament_prefix_path.ps1
+source;share/ex_recu_24_preg_02/hook/ament_prefix_path.dsv
+source;share/ex_recu_24_preg_02/hook/ament_prefix_path.sh

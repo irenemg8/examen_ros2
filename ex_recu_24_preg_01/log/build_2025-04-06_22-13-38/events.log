@@ -1,0 +1,622 @@
+[0.000000] (-) TimerEvent: {}
+[0.000216] (ex_recu_24_preg_01) JobQueued: {'identifier': 'ex_recu_24_preg_01', 'dependencies': OrderedDict()}
+[0.000383] (ex_recu_24_preg_01) JobStarted: {'identifier': 'ex_recu_24_preg_01'}
+[0.008989] (ex_recu_24_preg_01) JobProgress: {'identifier': 'ex_recu_24_preg_01', 'progress': 'cmake'}
+[0.009687] (ex_recu_24_preg_01) Command: {'cmd': ['/usr/bin/cmake', '/home/irene/examen/examen_ros2/ex_recu_24_preg_01', '-DCMAKE_INSTALL_PREFIX=/home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01'], 'cwd': '/home/irene/examen/examen_ros2/ex_recu_24_preg_01/build/ex_recu_24_preg_01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'irene'), ('SSH_AGENT_PID', '1536'), ('ROS_PACKAGE_PATH', '/home/irene/turtlebot3_ws/install/async_web_server_cpp/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/irene/turtlebot3_ws/install/custom_interface/lib:/home/irene/turtlebot3_ws/install/async_web_server_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/irene'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/irene/.nvm/versions/node/v18.20.7/bin'), ('NVM_INC', '/home/irene/.nvm/versions/node/v18.20.7/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1369'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/irene/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6206c6ad2d71409cf355ef3567f2a55b'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/irene/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/irene/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'irene'), ('JOURNAL_STREAM', '8:43391'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/irene/turtlebot3_ws/install/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/home/irene/turtlebot3_ws/install/async_web_server_cpp/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'irene'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/irene/turtlebot3_ws/src/my_world/models:/home/irene/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/irene/.nvm/versions/node/v18.20.7/bin:/opt/ros/galactic/bin:/home/irene/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/IRENE:@/tmp/.ICE-unix/1683,unix/IRENE:/tmp/.ICE-unix/1683'), ('INVOCATION_ID', '5d531e7ec3d44694b2c3f85a85e8ff80'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a46ecd_b025_4d0b_8003_903f3d63332b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.451'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '4'), ('AMENT_PREFIX_PATH', '/home/irene/turtlebot3_ws/install/web_video_server:/home/irene/turtlebot3_ws/install/turtlebot3_simulations:/home/irene/turtlebot3_ws/install/my_world:/home/irene/turtlebot3_ws/install/turtlebot3_gazebo:/home/irene/turtlebot3_ws/install/turtlebot3_fake_node:/home/irene/turtlebot3_ws/install/show_msg:/home/irene/turtlebot3_ws/install/package_name:/home/irene/turtlebot3_ws/install/my_nav2_system:/home/irene/turtlebot3_ws/install/my_first_subscriber:/home/irene/turtlebot3_ws/install/my_first_service:/home/irene/turtlebot3_ws/install/my_first_publisher:/home/irene/turtlebot3_ws/install/my_first_node:/home/irene/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/irene/examen/examen_ros2/ex_recu_24_preg_01/build/ex_recu_24_preg_01'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6206c6ad2d71409cf355ef3567f2a55b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/irene/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/irene/turtlebot3_ws/install/web_video_server:/home/irene/turtlebot3_ws/install/turtlebot3_simulations:/home/irene/turtlebot3_ws/install/my_world:/home/irene/turtlebot3_ws/install/turtlebot3_gazebo:/home/irene/turtlebot3_ws/install/turtlebot3_fake_node:/home/irene/turtlebot3_ws/install/package_name:/home/irene/turtlebot3_ws/install/custom_interface:/home/irene/turtlebot3_ws/install/show_msg:/home/irene/turtlebot3_ws/install/my_nav2_system:/home/irene/turtlebot3_ws/install/my_first_subscriber:/home/irene/turtlebot3_ws/install/my_first_service:/home/irene/turtlebot3_ws/install/my_first_publisher:/home/irene/turtlebot3_ws/install/my_first_node:/opt/ros/galactic:/home/irene/turtlebot3_ws/install/async_web_server_cpp')]), 'shell': False}
+[0.071729] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099888] (-) TimerEvent: {}
+[0.137266] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.143123] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199978] (-) TimerEvent: {}
+[0.229774] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.231515] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300149] (-) TimerEvent: {}
+[0.331826] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.341950] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.342160] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.343859] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400229] (-) TimerEvent: {}
+[0.438456] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.440899] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500331] (-) TimerEvent: {}
+[0.533358] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.543955] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.544278] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.547172] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.574148] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.574349] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600404] (-) TimerEvent: {}
+[0.671737] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[0.675285] (ex_recu_24_preg_01) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.700523] (-) TimerEvent: {}
+[0.703021] (ex_recu_24_preg_01) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[0.800725] (-) TimerEvent: {}
+[0.901229] (-) TimerEvent: {}
+[0.924382] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[1.001397] (-) TimerEvent: {}
+[1.054954] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[1.101513] (-) TimerEvent: {}
+[1.171667] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[1.197189] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.201577] (-) TimerEvent: {}
+[1.301869] (-) TimerEvent: {}
+[1.402313] (-) TimerEvent: {}
+[1.502636] (-) TimerEvent: {}
+[1.602900] (-) TimerEvent: {}
+[1.606689] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.625392] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[1.631403] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.637425] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.638594] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.638940] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.643348] (ex_recu_24_preg_01) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.666845] (ex_recu_24_preg_01) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.703041] (-) TimerEvent: {}
+[1.755282] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.762342] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.769563] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.774914] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.775012] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.780139] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.780221] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.785408] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.785503] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.790648] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.790745] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.795727] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.795829] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.803101] (-) TimerEvent: {}
+[1.804028] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.903207] (-) TimerEvent: {}
+[1.939899] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.942564] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[1.942883] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.961584] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[1.979822] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.984331] (ex_recu_24_preg_01) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.003305] (-) TimerEvent: {}
+[2.009113] (ex_recu_24_preg_01) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[2.075739] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.082763] (ex_recu_24_preg_01) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.103396] (-) TimerEvent: {}
+[2.118740] (ex_recu_24_preg_01) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[2.186662] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.189700] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.190034] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.203497] (-) TimerEvent: {}
+[2.212207] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.217880] (ex_recu_24_preg_01) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.239884] (ex_recu_24_preg_01) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[2.303598] (-) TimerEvent: {}
+[2.311740] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.314500] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[2.314892] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.315275] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.315942] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.316967] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.323817] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.326539] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[2.326980] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.327281] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.330647] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[2.331013] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.403773] (-) TimerEvent: {}
+[2.472150] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[2.481589] (ex_recu_24_preg_01) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.503881] (-) TimerEvent: {}
+[2.512500] (ex_recu_24_preg_01) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[2.594545] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.600440] (ex_recu_24_preg_01) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.603948] (-) TimerEvent: {}
+[2.634270] (ex_recu_24_preg_01) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[2.704124] (-) TimerEvent: {}
+[2.718137] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.718430] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[2.718690] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.718961] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.721993] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/galactic/share/gazebo_ros_pkgs/cmake)\n'}
+[2.724030] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[2.761867] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.770038] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[2.804279] (-) TimerEvent: {}
+[2.904753] (-) TimerEvent: {}
+[2.906707] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.932791] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[3.004852] (-) TimerEvent: {}
+[3.016364] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.083811] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)\n'}
+[3.104929] (-) TimerEvent: {}
+[3.139638] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[3.190436] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[3.193885] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.205009] (-) TimerEvent: {}
+[3.209276] (ex_recu_24_preg_01) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.210549] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.305098] (-) TimerEvent: {}
+[3.325379] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[3.391730] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[3.400762] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Found turtlebot3_gazebo: 2.2.4 (/home/irene/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake)\n'}
+[3.405169] (-) TimerEvent: {}
+[3.491730] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.500161] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Generating done\n'}
+[3.504960] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Build files have been written to: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/build/ex_recu_24_preg_01\n'}
+[3.505232] (-) TimerEvent: {}
+[3.514455] (ex_recu_24_preg_01) CommandEnded: {'returncode': 0}
+[3.515286] (ex_recu_24_preg_01) JobProgress: {'identifier': 'ex_recu_24_preg_01', 'progress': 'build'}
+[3.516135] (ex_recu_24_preg_01) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/irene/examen/examen_ros2/ex_recu_24_preg_01/build/ex_recu_24_preg_01', '--', '-j16', '-l16'], 'cwd': '/home/irene/examen/examen_ros2/ex_recu_24_preg_01/build/ex_recu_24_preg_01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'irene'), ('SSH_AGENT_PID', '1536'), ('ROS_PACKAGE_PATH', '/home/irene/turtlebot3_ws/install/async_web_server_cpp/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/irene/turtlebot3_ws/install/custom_interface/lib:/home/irene/turtlebot3_ws/install/async_web_server_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/irene'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/irene/.nvm/versions/node/v18.20.7/bin'), ('NVM_INC', '/home/irene/.nvm/versions/node/v18.20.7/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1369'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/irene/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6206c6ad2d71409cf355ef3567f2a55b'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/irene/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/irene/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'irene'), ('JOURNAL_STREAM', '8:43391'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/irene/turtlebot3_ws/install/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/home/irene/turtlebot3_ws/install/async_web_server_cpp/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'irene'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/irene/turtlebot3_ws/src/my_world/models:/home/irene/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/irene/.nvm/versions/node/v18.20.7/bin:/opt/ros/galactic/bin:/home/irene/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/IRENE:@/tmp/.ICE-unix/1683,unix/IRENE:/tmp/.ICE-unix/1683'), ('INVOCATION_ID', '5d531e7ec3d44694b2c3f85a85e8ff80'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a46ecd_b025_4d0b_8003_903f3d63332b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.451'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '4'), ('AMENT_PREFIX_PATH', '/home/irene/turtlebot3_ws/install/web_video_server:/home/irene/turtlebot3_ws/install/turtlebot3_simulations:/home/irene/turtlebot3_ws/install/my_world:/home/irene/turtlebot3_ws/install/turtlebot3_gazebo:/home/irene/turtlebot3_ws/install/turtlebot3_fake_node:/home/irene/turtlebot3_ws/install/show_msg:/home/irene/turtlebot3_ws/install/package_name:/home/irene/turtlebot3_ws/install/my_nav2_system:/home/irene/turtlebot3_ws/install/my_first_subscriber:/home/irene/turtlebot3_ws/install/my_first_service:/home/irene/turtlebot3_ws/install/my_first_publisher:/home/irene/turtlebot3_ws/install/my_first_node:/home/irene/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/irene/examen/examen_ros2/ex_recu_24_preg_01/build/ex_recu_24_preg_01'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6206c6ad2d71409cf355ef3567f2a55b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/irene/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/irene/turtlebot3_ws/install/web_video_server:/home/irene/turtlebot3_ws/install/turtlebot3_simulations:/home/irene/turtlebot3_ws/install/my_world:/home/irene/turtlebot3_ws/install/turtlebot3_gazebo:/home/irene/turtlebot3_ws/install/turtlebot3_fake_node:/home/irene/turtlebot3_ws/install/package_name:/home/irene/turtlebot3_ws/install/custom_interface:/home/irene/turtlebot3_ws/install/show_msg:/home/irene/turtlebot3_ws/install/my_nav2_system:/home/irene/turtlebot3_ws/install/my_first_subscriber:/home/irene/turtlebot3_ws/install/my_first_service:/home/irene/turtlebot3_ws/install/my_first_publisher:/home/irene/turtlebot3_ws/install/my_first_node:/opt/ros/galactic:/home/irene/turtlebot3_ws/install/async_web_server_cpp')]), 'shell': False}
+[3.577018] (ex_recu_24_preg_01) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_drive\x1b[0m\n'}
+[3.605348] (-) TimerEvent: {}
+[3.633744] (ex_recu_24_preg_01) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[3.705441] (-) TimerEvent: {}
+[3.805716] (-) TimerEvent: {}
+[3.906066] (-) TimerEvent: {}
+[4.006388] (-) TimerEvent: {}
+[4.106647] (-) TimerEvent: {}
+[4.206905] (-) TimerEvent: {}
+[4.307168] (-) TimerEvent: {}
+[4.407466] (-) TimerEvent: {}
+[4.507919] (-) TimerEvent: {}
+[4.608185] (-) TimerEvent: {}
+[4.708485] (-) TimerEvent: {}
+[4.808802] (-) TimerEvent: {}
+[4.909125] (-) TimerEvent: {}
+[5.009420] (-) TimerEvent: {}
+[5.109702] (-) TimerEvent: {}
+[5.209960] (-) TimerEvent: {}
+[5.310224] (-) TimerEvent: {}
+[5.410488] (-) TimerEvent: {}
+[5.510752] (-) TimerEvent: {}
+[5.611052] (-) TimerEvent: {}
+[5.711344] (-) TimerEvent: {}
+[5.811643] (-) TimerEvent: {}
+[5.912052] (-) TimerEvent: {}
+[6.012559] (-) TimerEvent: {}
+[6.112875] (-) TimerEvent: {}
+[6.213249] (-) TimerEvent: {}
+[6.313514] (-) TimerEvent: {}
+[6.413777] (-) TimerEvent: {}
+[6.514039] (-) TimerEvent: {}
+[6.614310] (-) TimerEvent: {}
+[6.714576] (-) TimerEvent: {}
+[6.814838] (-) TimerEvent: {}
+[6.915119] (-) TimerEvent: {}
+[7.015463] (-) TimerEvent: {}
+[7.115746] (-) TimerEvent: {}
+[7.216009] (-) TimerEvent: {}
+[7.316273] (-) TimerEvent: {}
+[7.416541] (-) TimerEvent: {}
+[7.516810] (-) TimerEvent: {}
+[7.617093] (-) TimerEvent: {}
+[7.717371] (-) TimerEvent: {}
+[7.817656] (-) TimerEvent: {}
+[7.917977] (-) TimerEvent: {}
+[8.018249] (-) TimerEvent: {}
+[8.118509] (-) TimerEvent: {}
+[8.218775] (-) TimerEvent: {}
+[8.319035] (-) TimerEvent: {}
+[8.419307] (-) TimerEvent: {}
+[8.519607] (-) TimerEvent: {}
+[8.619880] (-) TimerEvent: {}
+[8.720161] (-) TimerEvent: {}
+[8.820419] (-) TimerEvent: {}
+[8.920676] (-) TimerEvent: {}
+[9.020913] (-) TimerEvent: {}
+[9.121189] (-) TimerEvent: {}
+[9.221440] (-) TimerEvent: {}
+[9.321695] (-) TimerEvent: {}
+[9.421964] (-) TimerEvent: {}
+[9.522232] (-) TimerEvent: {}
+[9.622514] (-) TimerEvent: {}
+[9.722797] (-) TimerEvent: {}
+[9.823071] (-) TimerEvent: {}
+[9.923353] (-) TimerEvent: {}
+[10.023623] (-) TimerEvent: {}
+[10.123895] (-) TimerEvent: {}
+[10.224170] (-) TimerEvent: {}
+[10.324431] (-) TimerEvent: {}
+[10.424706] (-) TimerEvent: {}
+[10.524982] (-) TimerEvent: {}
+[10.625269] (-) TimerEvent: {}
+[10.725573] (-) TimerEvent: {}
+[10.825880] (-) TimerEvent: {}
+[10.926199] (-) TimerEvent: {}
+[10.965919] (ex_recu_24_preg_01) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[11.027274] (-) TimerEvent: {}
+[11.127592] (-) TimerEvent: {}
+[11.227926] (-) TimerEvent: {}
+[11.309925] (ex_recu_24_preg_01) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[11.328014] (-) TimerEvent: {}
+[11.331566] (ex_recu_24_preg_01) CommandEnded: {'returncode': 0}
+[11.332404] (ex_recu_24_preg_01) JobProgress: {'identifier': 'ex_recu_24_preg_01', 'progress': 'install'}
+[11.353855] (ex_recu_24_preg_01) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/irene/examen/examen_ros2/ex_recu_24_preg_01/build/ex_recu_24_preg_01'], 'cwd': '/home/irene/examen/examen_ros2/ex_recu_24_preg_01/build/ex_recu_24_preg_01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'irene'), ('SSH_AGENT_PID', '1536'), ('ROS_PACKAGE_PATH', '/home/irene/turtlebot3_ws/install/async_web_server_cpp/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/irene/turtlebot3_ws/install/custom_interface/lib:/home/irene/turtlebot3_ws/install/async_web_server_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/irene'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/irene/.nvm/versions/node/v18.20.7/bin'), ('NVM_INC', '/home/irene/.nvm/versions/node/v18.20.7/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1369'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/irene/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6206c6ad2d71409cf355ef3567f2a55b'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/irene/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/irene/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'irene'), ('JOURNAL_STREAM', '8:43391'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/irene/turtlebot3_ws/install/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/home/irene/turtlebot3_ws/install/async_web_server_cpp/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'irene'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/irene/turtlebot3_ws/src/my_world/models:/home/irene/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/irene/.nvm/versions/node/v18.20.7/bin:/opt/ros/galactic/bin:/home/irene/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/IRENE:@/tmp/.ICE-unix/1683,unix/IRENE:/tmp/.ICE-unix/1683'), ('INVOCATION_ID', '5d531e7ec3d44694b2c3f85a85e8ff80'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a46ecd_b025_4d0b_8003_903f3d63332b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.451'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '4'), ('AMENT_PREFIX_PATH', '/home/irene/turtlebot3_ws/install/web_video_server:/home/irene/turtlebot3_ws/install/turtlebot3_simulations:/home/irene/turtlebot3_ws/install/my_world:/home/irene/turtlebot3_ws/install/turtlebot3_gazebo:/home/irene/turtlebot3_ws/install/turtlebot3_fake_node:/home/irene/turtlebot3_ws/install/show_msg:/home/irene/turtlebot3_ws/install/package_name:/home/irene/turtlebot3_ws/install/my_nav2_system:/home/irene/turtlebot3_ws/install/my_first_subscriber:/home/irene/turtlebot3_ws/install/my_first_service:/home/irene/turtlebot3_ws/install/my_first_publisher:/home/irene/turtlebot3_ws/install/my_first_node:/home/irene/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/irene/examen/examen_ros2/ex_recu_24_preg_01/build/ex_recu_24_preg_01'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6206c6ad2d71409cf355ef3567f2a55b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/irene/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/irene/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/irene/turtlebot3_ws/install/web_video_server:/home/irene/turtlebot3_ws/install/turtlebot3_simulations:/home/irene/turtlebot3_ws/install/my_world:/home/irene/turtlebot3_ws/install/turtlebot3_gazebo:/home/irene/turtlebot3_ws/install/turtlebot3_fake_node:/home/irene/turtlebot3_ws/install/package_name:/home/irene/turtlebot3_ws/install/custom_interface:/home/irene/turtlebot3_ws/install/show_msg:/home/irene/turtlebot3_ws/install/my_nav2_system:/home/irene/turtlebot3_ws/install/my_first_subscriber:/home/irene/turtlebot3_ws/install/my_first_service:/home/irene/turtlebot3_ws/install/my_first_publisher:/home/irene/turtlebot3_ws/install/my_first_node:/opt/ros/galactic:/home/irene/turtlebot3_ws/install/async_web_server_cpp')]), 'shell': False}
+[11.362288] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.362486] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/lib/ex_recu_24_preg_01/turtlebot3_drive\n'}
+[11.368035] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Set runtime path of "/home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/lib/ex_recu_24_preg_01/turtlebot3_drive" to ""\n'}
+[11.368158] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//launch\n'}
+[11.368253] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//launch/ex_recu_24_preg_01_tb3.launch.py\n'}
+[11.368381] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//world\n'}
+[11.368451] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//world/burger_office.world\n'}
+[11.369359] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//urdf\n'}
+[11.369472] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//urdf/turtlebot3_burger.urdf\n'}
+[11.369567] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models\n'}
+[11.369660] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_large\n'}
+[11.369780] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_large/model.sdf\n'}
+[11.369870] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_large/model.config\n'}
+[11.369971] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_large/meshes\n'}
+[11.370084] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_large/meshes/conference_table_large.obj\n'}
+[11.370184] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_large/meshes/conference_table_large.mtl\n'}
+[11.370267] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/tv_stand\n'}
+[11.370356] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/tv_stand/model.sdf\n'}
+[11.370446] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/tv_stand/model.config\n'}
+[11.370536] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/tv_stand/materials\n'}
+[11.370621] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/tv_stand/materials/textures\n'}
+[11.370705] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/tv_stand/materials/textures/tv_diffuse.png\n'}
+[11.371009] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/tv_stand/materials/textures/stand_specular.png\n'}
+[11.371296] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/tv_stand/materials/textures/tv_specular.png\n'}
+[11.371537] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/tv_stand/materials/textures/stand_diffuse.png\n'}
+[11.372024] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/tv_stand/meshes\n'}
+[11.372121] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/tv_stand/meshes/tv_stand.dae\n'}
+[11.372265] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media\n'}
+[11.372362] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials\n'}
+[11.372476] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures\n'}
+[11.372542] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/cubicle_wall.png\n'}
+[11.372769] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/bathroom.png\n'}
+[11.375112] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/door_wall.png\n'}
+[11.375283] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/wall_window_and_elevator.png\n'}
+[11.375659] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/wall_color.png\n'}
+[11.376079] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/floors.png\n'}
+[11.376832] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/hallway.png\n'}
+[11.376936] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/plain.png\n'}
+[11.377200] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/wall_plain_and_door.png\n'}
+[11.377563] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/ceiling.png\n'}
+[11.377714] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/sink.png\n'}
+[11.378606] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/window.png\n'}
+[11.378731] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/textures/elevator.png\n'}
+[11.378921] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/scripts\n'}
+[11.379005] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/materials/scripts/servicesim.material\n'}
+[11.379100] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes\n'}
+[11.379185] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/wall_plain.obj\n'}
+[11.379278] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/cubicle_wall.obj\n'}
+[11.379394] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/wall_door.obj\n'}
+[11.379496] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/carpet.obj\n'}
+[11.379597] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/wall_elevator.obj\n'}
+[11.379699] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/sink.obj\n'}
+[11.379837] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/tile.obj\n'}
+[11.379939] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/office_large.obj\n'}
+[11.380047] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/wall_window.obj\n'}
+[11.380149] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/hallway.obj\n'}
+[11.380252] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/cubicle_wall.mtl\n'}
+[11.380354] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/ceiling.obj\n'}
+[11.380459] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/reception.obj\n'}
+[11.380570] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/office.mtl\n'}
+[11.380673] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/bathroom.obj\n'}
+[11.380821] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/refreshment_area.obj\n'}
+[11.380931] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/office_small.obj\n'}
+[11.381049] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/meeting_room_small.obj\n'}
+[11.381177] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/media/meshes/meeting_room_large.obj\n'}
+[11.381300] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_lamp\n'}
+[11.381383] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_lamp/model.sdf\n'}
+[11.381489] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_lamp/model.config\n'}
+[11.381583] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_lamp/materials\n'}
+[11.381667] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_lamp/materials/textures\n'}
+[11.381757] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_lamp/materials/textures/office_lamp_specular.png\n'}
+[11.382762] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_lamp/materials/textures/office_lamp_diffuse.png\n'}
+[11.384877] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_lamp/materials/textures/office_lamp_illumination.png\n'}
+[11.385213] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_lamp/meshes\n'}
+[11.385318] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_lamp/meshes/office_lamp.dae\n'}
+[11.385462] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_small\n'}
+[11.385562] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_small/model.sdf\n'}
+[11.385653] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_small/model.config\n'}
+[11.385753] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_small/materials\n'}
+[11.385846] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_small/materials/textures\n'}
+[11.385930] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_small/materials/textures/conference_table.png\n'}
+[11.387399] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_small/meshes\n'}
+[11.387488] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_small/meshes/conference_table_small.obj\n'}
+[11.387572] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_small/meshes/conference_table_small.mtl\n'}
+[11.387669] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/reception_desk\n'}
+[11.387760] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/reception_desk/model.sdf\n'}
+[11.387846] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/reception_desk/model.config\n'}
+[11.387939] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/reception_desk/materials\n'}
+[11.388026] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/reception_desk/materials/textures\n'}
+[11.388130] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/reception_desk/materials/textures/reception_desk.png\n'}
+[11.388622] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/reception_desk/meshes\n'}
+[11.388710] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/reception_desk/meshes/reception_desk.obj\n'}
+[11.388821] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/reception_desk/meshes/reception_desk.mtl\n'}
+[11.388924] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/whiteboard\n'}
+[11.389011] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/whiteboard/model.sdf\n'}
+[11.389116] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/whiteboard/model.config\n'}
+[11.389208] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/whiteboard/materials\n'}
+[11.389299] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/whiteboard/materials/textures\n'}
+[11.389389] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/whiteboard/materials/textures/whiteboard.png\n'}
+[11.389651] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/whiteboard/meshes\n'}
+[11.389743] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/whiteboard/meshes/whiteboard.mtl\n'}
+[11.389838] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/whiteboard/meshes/whiteboard.obj\n'}
+[11.389987] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_box\n'}
+[11.390084] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_box/model.sdf\n'}
+[11.390177] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_box/model.config\n'}
+[11.390266] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_box/materials\n'}
+[11.390355] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_box/materials/textures\n'}
+[11.390444] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_box/materials/textures/office_box.png\n'}
+[11.390964] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_box/meshes\n'}
+[11.391046] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_box/meshes/office_box.dae\n'}
+[11.391147] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/dishwasher\n'}
+[11.391230] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/dishwasher/model.sdf\n'}
+[11.391316] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/dishwasher/model.config\n'}
+[11.391412] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/dishwasher/materials\n'}
+[11.391503] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/dishwasher/materials/textures\n'}
+[11.391595] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/dishwasher/materials/textures/dishwasher.png\n'}
+[11.391833] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/dishwasher/meshes\n'}
+[11.391921] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/dishwasher/meshes/dishwasher.mtl\n'}
+[11.392007] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/dishwasher/meshes/dishwasher.obj\n'}
+[11.392110] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_corner\n'}
+[11.392202] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_corner/model.sdf\n'}
+[11.392287] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_corner/model.config\n'}
+[11.392379] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_corner/materials\n'}
+[11.392469] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_corner/materials/textures\n'}
+[11.392561] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_corner/materials/textures/cubicle_corner.png\n'}
+[11.393960] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_corner/meshes\n'}
+[11.394057] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_corner/meshes/cubicle_corner.obj\n'}
+[11.394153] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_corner/meshes/cubicle_corner.mtl\n'}
+[11.394250] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_cafe_table\n'}
+[11.394337] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_cafe_table/model.sdf\n'}
+[11.394426] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_cafe_table/model.config\n'}
+[11.394514] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_cafe_table/materials\n'}
+[11.394602] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_cafe_table/materials/textures\n'}
+[11.394694] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_cafe_table/materials/textures/Maple.jpg\n'}
+[11.394800] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_cafe_table/materials/textures/Wood_Floor_Dark.jpg\n'}
+[11.394960] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_cafe_table/meshes\n'}
+[11.395044] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_cafe_table/meshes/office_cafe_table.dae\n'}
+[11.395156] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_couch\n'}
+[11.395244] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_couch/model.sdf\n'}
+[11.395332] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_couch/model.config\n'}
+[11.395427] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_couch/materials\n'}
+[11.395512] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_couch/materials/textures\n'}
+[11.395607] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_couch/materials/textures/office_couch_specular.png\n'}
+[11.396659] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_couch/materials/textures/office_couch_diffuse.png\n'}
+[11.399680] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_couch/meshes\n'}
+[11.399784] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_couch/meshes/office_couch.dae\n'}
+[11.399905] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/refrigerator\n'}
+[11.400006] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/refrigerator/model.sdf\n'}
+[11.400097] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/refrigerator/model.config\n'}
+[11.400185] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/refrigerator/materials\n'}
+[11.400288] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/refrigerator/materials/textures\n'}
+[11.400376] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/refrigerator/materials/textures/refrigerator.png\n'}
+[11.400662] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/refrigerator/meshes\n'}
+[11.400750] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/refrigerator/meshes/refrigerator.obj\n'}
+[11.400861] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/refrigerator/meshes/refrigerator.mtl\n'}
+[11.400956] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/microwave\n'}
+[11.401034] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/microwave/model.sdf\n'}
+[11.401148] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/microwave/model.config\n'}
+[11.401245] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/microwave/materials\n'}
+[11.401321] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/microwave/materials/textures\n'}
+[11.401391] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/microwave/materials/textures/microwave.png\n'}
+[11.402952] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/microwave/meshes\n'}
+[11.403043] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/microwave/meshes/microwave.mtl\n'}
+[11.403131] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/microwave/meshes/microwave.obj\n'}
+[11.403239] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cafe_counter\n'}
+[11.403334] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cafe_counter/model.sdf\n'}
+[11.403436] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cafe_counter/model.config\n'}
+[11.403523] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cafe_counter/materials\n'}
+[11.403611] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cafe_counter/materials/textures\n'}
+[11.403703] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cafe_counter/materials/textures/cafe_counter.png\n'}
+[11.404576] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cafe_counter/meshes\n'}
+[11.404648] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cafe_counter/meshes/cafe_counter.mtl\n'}
+[11.404750] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cafe_counter/meshes/cafe_counter.obj\n'}
+[11.404945] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cafe_counter/meshes/counter_sink.obj\n'}
+[11.405186] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cafe_counter/meshes/counter_no_sink.obj\n'}
+[11.405305] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_chair\n'}
+[11.405381] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_chair/model.sdf\n'}
+[11.405475] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_chair/model.config\n'}
+[11.405571] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_chair/materials\n'}
+[11.405645] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_chair/materials/textures\n'}
+[11.405719] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_chair/materials/textures/office_chair_diffuse.png\n'}
+[11.407292] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_chair/materials/textures/office_chair_specular.png\n'}
+[11.407997] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_chair/meshes\n'}
+[11.408088] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_chair/meshes/office_chair.dae\n'}
+[11.408266] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_wall\n'}
+[11.408361] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_wall/model.sdf\n'}
+[11.408451] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_wall/model.config\n'}
+[11.408544] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_wall/materials\n'}
+[11.408631] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_wall/materials/textures\n'}
+[11.408721] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_wall/materials/textures/cubicle_wall.png\n'}
+[11.408952] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_wall/meshes\n'}
+[11.409040] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_wall/meshes/cubicle_wall.obj\n'}
+[11.409153] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_wall/meshes/cubicle_open.obj\n'}
+[11.409262] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_wall/meshes/cubicle_wall.mtl\n'}
+[11.409364] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_wall/meshes/cubicle_closed.obj\n'}
+[11.409469] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_wall/meshes/cubicle_corner.obj\n'}
+[11.409570] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/servicebot\n'}
+[11.409659] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/servicebot/model.sdf\n'}
+[11.409754] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/servicebot/model.config\n'}
+[11.409846] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/servicebot/materials\n'}
+[11.409944] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/servicebot/materials/textures\n'}
+[11.410039] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/servicebot/materials/textures/servicebot.png\n'}
+[11.411502] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/servicebot/meshes\n'}
+[11.411594] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/servicebot/meshes/servicebot.mtl\n'}
+[11.411695] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/servicebot/meshes/servicebot.obj\n'}
+[11.412317] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/bathroom_sink\n'}
+[11.412406] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/bathroom_sink/model.sdf\n'}
+[11.412493] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/bathroom_sink/model.config\n'}
+[11.412590] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/bathroom_sink/materials\n'}
+[11.412680] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/bathroom_sink/materials/textures\n'}
+[11.412774] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/bathroom_sink/materials/textures/bathroom_sink_specular.png\n'}
+[11.413725] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/bathroom_sink/materials/textures/bathroom_sink_diffuse.png\n'}
+[11.415687] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/bathroom_sink/meshes\n'}
+[11.415781] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/bathroom_sink/meshes/bathroom_sink.dae\n'}
+[11.415962] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk_chair\n'}
+[11.416055] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk_chair/model.sdf\n'}
+[11.416150] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk_chair/model.config\n'}
+[11.416238] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk_chair/materials\n'}
+[11.416332] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk_chair/materials/textures\n'}
+[11.416419] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk_chair/materials/textures/desk_chair.png\n'}
+[11.420598] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk_chair/meshes\n'}
+[11.420695] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk_chair/meshes/desk_chair.obj\n'}
+[11.420987] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk_chair/meshes/desk_chair.mtl\n'}
+[11.421109] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_desk\n'}
+[11.421206] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_desk/model.sdf\n'}
+[11.421304] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_desk/model.config\n'}
+[11.421395] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_desk/materials\n'}
+[11.421493] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_desk/materials/textures\n'}
+[11.421580] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_desk/materials/textures/office_desk_diffuse.png\n'}
+[11.423004] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_desk/materials/textures/office_desk_specular.png\n'}
+[11.423794] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_desk/meshes\n'}
+[11.423888] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_desk/meshes/office_desk.dae\n'}
+[11.423991] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/toilet\n'}
+[11.424081] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/toilet/model.sdf\n'}
+[11.424174] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/toilet/model.config\n'}
+[11.424266] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/toilet/materials\n'}
+[11.424353] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/toilet/materials/textures\n'}
+[11.424445] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/toilet/materials/textures/toilet_diffuse_specular.png\n'}
+[11.424535] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/toilet/meshes\n'}
+[11.424632] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/toilet/meshes/toilet.dae\n'}
+[11.424757] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_table\n'}
+[11.424848] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_table/model.sdf\n'}
+[11.424939] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_table/model.config\n'}
+[11.425025] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_table/materials\n'}
+[11.425126] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_table/materials/textures\n'}
+[11.425220] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_table/materials/textures/office_table_diffuse.png\n'}
+[11.425899] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_table/materials/textures/office_table_specular.png\n'}
+[11.426268] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_table/meshes\n'}
+[11.426357] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/office_table/meshes/office_table.dae\n'}
+[11.426457] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_medium\n'}
+[11.426555] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_medium/model.sdf\n'}
+[11.426659] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_medium/model.config\n'}
+[11.426748] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_medium/meshes\n'}
+[11.426842] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_medium/meshes/conference_table_medium.mtl\n'}
+[11.426928] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/conference_table_medium/meshes/conference_table_medium.obj\n'}
+[11.427015] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk\n'}
+[11.427110] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk/model.sdf\n'}
+[11.427193] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk/model.config\n'}
+[11.427286] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk/materials\n'}
+[11.427375] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk/materials/textures\n'}
+[11.427465] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk/materials/textures/desk.png\n'}
+[11.427742] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk/meshes\n'}
+[11.427832] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk/meshes/desk.mtl\n'}
+[11.427937] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/desk/meshes/desk.obj\n'}
+[11.428075] (-) TimerEvent: {}
+[11.428251] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_island\n'}
+[11.428390] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_island/model.sdf\n'}
+[11.428496] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_island/model.config\n'}
+[11.428597] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_island/materials\n'}
+[11.428701] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_island/materials/textures\n'}
+[11.428787] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_island/materials/textures/cubicle_1.png\n'}
+[11.429036] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_island/materials/textures/cubicle_island.png\n'}
+[11.430552] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_island/meshes\n'}
+[11.430664] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_island/meshes/cubicle_island.mtl\n'}
+[11.430809] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/cubicle_island/meshes/cubicle_island.obj\n'}
+[11.431004] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/coffee_maker\n'}
+[11.431107] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/coffee_maker/model.sdf\n'}
+[11.431248] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/coffee_maker/model.config\n'}
+[11.431386] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/coffee_maker/materials\n'}
+[11.431501] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/coffee_maker/materials/textures\n'}
+[11.431598] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/coffee_maker/materials/textures/coffee_maker.png\n'}
+[11.432014] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/coffee_maker/meshes\n'}
+[11.432126] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/coffee_maker/meshes/coffee_maker.obj\n'}
+[11.432317] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/coffee_maker/meshes/coffee_maker.mtl\n'}
+[11.432456] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes\n'}
+[11.432558] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/wrist.stl\n'}
+[11.432703] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/robot_base.stl\n'}
+[11.432833] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office\n'}
+[11.432948] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/wall_plain.obj\n'}
+[11.433198] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/cubicle_wall.obj\n'}
+[11.433334] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/wall_door.obj\n'}
+[11.433469] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/carpet.obj\n'}
+[11.433608] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/wall_elevator.obj\n'}
+[11.433744] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/sink.obj\n'}
+[11.433880] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/tile.obj\n'}
+[11.434016] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/office_large.obj\n'}
+[11.434151] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/wall_window.obj\n'}
+[11.434287] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/hallway.obj\n'}
+[11.434426] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/cubicle_wall.mtl\n'}
+[11.434562] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/ceiling.obj\n'}
+[11.434700] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/reception.obj\n'}
+[11.434840] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/office.mtl\n'}
+[11.434982] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/bathroom.obj\n'}
+[11.435122] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/refreshment_area.obj\n'}
+[11.435261] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/office_small.obj\n'}
+[11.435398] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/meeting_room_small.obj\n'}
+[11.435542] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/office/meeting_room_large.obj\n'}
+[11.435679] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/cafe\n'}
+[11.435790] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/cafe/walk.dae\n'}
+[11.435927] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/arm_base.stl\n'}
+[11.436072] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/elbow.stl\n'}
+[11.436188] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/bicep.stl\n'}
+[11.436285] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/meshes/wheel.stl\n'}
+[11.436387] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/turtlebot3_burger\n'}
+[11.436476] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/turtlebot3_burger/model.sdf\n'}
+[11.436580] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/turtlebot3_burger/model-1_4.sdf\n'}
+[11.436702] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/turtlebot3_burger/model.config\n'}
+[11.436804] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/turtlebot3_burger/meshes\n'}
+[11.436898] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/turtlebot3_burger/meshes/tire.dae\n'}
+[11.437012] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/turtlebot3_burger/meshes/lds.dae\n'}
+[11.437179] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/turtlebot3_burger/meshes/burger_base.dae\n'}
+[11.437301] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/computer\n'}
+[11.437395] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/computer/model.sdf\n'}
+[11.437490] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/computer/model.config\n'}
+[11.437580] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/computer/materials\n'}
+[11.437675] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/computer/materials/textures\n'}
+[11.437764] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/computer/materials/textures/computer.png\n'}
+[11.438538] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/computer/meshes\n'}
+[11.438653] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/computer/meshes/computer.mtl\n'}
+[11.438754] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/computer/meshes/computer_tower.obj\n'}
+[11.438845] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/computer/meshes/computer_monitor.obj\n'}
+[11.438952] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/computer/meshes/computer.obj\n'}
+[11.439100] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/wastebasket\n'}
+[11.439197] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/wastebasket/model.sdf\n'}
+[11.439291] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/wastebasket/model.config\n'}
+[11.439388] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/wastebasket/materials\n'}
+[11.439476] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/wastebasket/materials/textures\n'}
+[11.439570] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/wastebasket/materials/textures/wastebasket_diffuse.png\n'}
+[11.439664] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/wastebasket/meshes\n'}
+[11.439764] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/wastebasket/meshes/wastebasket.dae\n'}
+[11.439871] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/mini_fridge\n'}
+[11.439961] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/mini_fridge/model.sdf\n'}
+[11.440054] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/mini_fridge/model.config\n'}
+[11.440146] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/mini_fridge/materials\n'}
+[11.440235] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/mini_fridge/materials/textures\n'}
+[11.440331] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/mini_fridge/materials/textures/mini_fridge.png\n'}
+[11.440641] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/mini_fridge/meshes\n'}
+[11.440734] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/mini_fridge/meshes/mini_fridge.obj\n'}
+[11.440843] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/mini_fridge/meshes/mini_fridge.mtl\n'}
+[11.440949] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door\n'}
+[11.441055] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door/model.sdf\n'}
+[11.441155] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door/model.config\n'}
+[11.441247] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door/materials\n'}
+[11.441347] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door/materials/textures\n'}
+[11.441435] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door/materials/textures/door.png\n'}
+[11.441646] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door/materials/textures/ceiling.png\n'}
+[11.441804] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door/materials/textures/refrigerator.png\n'}
+[11.442185] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door/meshes\n'}
+[11.442276] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door/meshes/door_door.obj\n'}
+[11.442384] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door/meshes/door.obj\n'}
+[11.442521] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door/meshes/door.mtl\n'}
+[11.442624] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/door/meshes/door_frame.obj\n'}
+[11.442722] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/hangout_chair\n'}
+[11.442812] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/hangout_chair/model.sdf\n'}
+[11.442904] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/hangout_chair/model.config\n'}
+[11.442998] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/hangout_chair/materials\n'}
+[11.443094] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/hangout_chair/materials/textures\n'}
+[11.443199] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/hangout_chair/materials/textures/hangout_chair.png\n'}
+[11.445649] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/hangout_chair/meshes\n'}
+[11.445747] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/hangout_chair/meshes/hangout_chair.obj\n'}
+[11.445885] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01//models/hangout_chair/meshes/hangout_chair.mtl\n'}
+[11.446178] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ament_index/resource_index/package_run_dependencies/ex_recu_24_preg_01\n'}
+[11.446406] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ament_index/resource_index/parent_prefix_path/ex_recu_24_preg_01\n'}
+[11.446612] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/environment/ament_prefix_path.sh\n'}
+[11.446766] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/environment/ament_prefix_path.dsv\n'}
+[11.446921] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/environment/path.sh\n'}
+[11.447063] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/environment/path.dsv\n'}
+[11.447215] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/local_setup.bash\n'}
+[11.447369] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/local_setup.sh\n'}
+[11.447525] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/local_setup.zsh\n'}
+[11.447676] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/local_setup.dsv\n'}
+[11.447829] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/package.dsv\n'}
+[11.448028] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ament_index/resource_index/packages/ex_recu_24_preg_01\n'}
+[11.448215] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.448374] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.448524] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/cmake/ex_recu_24_preg_01Config.cmake\n'}
+[11.448639] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/cmake/ex_recu_24_preg_01Config-version.cmake\n'}
+[11.448786] (ex_recu_24_preg_01) StdoutLine: {'line': b'-- Installing: /home/irene/examen/examen_ros2/ex_recu_24_preg_01/install/ex_recu_24_preg_01/share/ex_recu_24_preg_01/package.xml\n'}
+[11.450776] (ex_recu_24_preg_01) CommandEnded: {'returncode': 0}
+[11.466513] (ex_recu_24_preg_01) JobEnded: {'identifier': 'ex_recu_24_preg_01', 'rc': 0}
+[11.467013] (-) EventReactorShutdown: {}
