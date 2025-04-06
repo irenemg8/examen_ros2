@@ -1,0 +1,10 @@
+/home/irene/examen/build/ex_recu_24_preg_01/CMakeFiles/install/strip.dir
+/home/irene/examen/build/ex_recu_24_preg_01/CMakeFiles/install/local.dir
+/home/irene/examen/build/ex_recu_24_preg_01/CMakeFiles/edit_cache.dir
+/home/irene/examen/build/ex_recu_24_preg_01/CMakeFiles/test.dir
+/home/irene/examen/build/ex_recu_24_preg_01/CMakeFiles/install.dir
+/home/irene/examen/build/ex_recu_24_preg_01/CMakeFiles/list_install_components.dir
+/home/irene/examen/build/ex_recu_24_preg_01/CMakeFiles/rebuild_cache.dir
+/home/irene/examen/build/ex_recu_24_preg_01/CMakeFiles/turtlebot3_drive.dir
+/home/irene/examen/build/ex_recu_24_preg_01/CMakeFiles/ex_recu_24_preg_01_uninstall.dir
+/home/irene/examen/build/ex_recu_24_preg_01/CMakeFiles/uninstall.dir
