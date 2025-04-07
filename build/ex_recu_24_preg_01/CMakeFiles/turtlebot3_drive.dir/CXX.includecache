@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/irene/examen/ex_recu_24_preg_01/src/turtlebot3_drive.cpp
+/home/irene/examen/examen_ros2/ex_recu_24_preg_01/src/turtlebot3_drive.cpp
 turtlebot3_drive.hpp
-/home/irene/examen/ex_recu_24_preg_01/src/turtlebot3_drive.hpp
+/home/irene/examen/examen_ros2/ex_recu_24_preg_01/src/turtlebot3_drive.hpp
 memory
 -
 
-/home/irene/examen/ex_recu_24_preg_01/src/turtlebot3_drive.hpp
+/home/irene/examen/examen_ros2/ex_recu_24_preg_01/src/turtlebot3_drive.hpp
 geometry_msgs/msg/twist.hpp
 -
 nav_msgs/msg/odometry.hpp

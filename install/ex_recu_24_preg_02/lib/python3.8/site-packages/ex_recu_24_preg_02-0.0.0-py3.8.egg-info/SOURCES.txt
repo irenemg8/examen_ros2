@@ -13,6 +13,7 @@ config/my_slam.rviz
 config/office_map.png
 config/office_map.yaml
 ex_recu_24_preg_02/__init__.py
+ex_recu_24_preg_02/initial_pose_pub.py
 launch/ex_recu_24_preg_02.launch.py
 resource/ex_recu_24_preg_02
 test/test_copyright.py

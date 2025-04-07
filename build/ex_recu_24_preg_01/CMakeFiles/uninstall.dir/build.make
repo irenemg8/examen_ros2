@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/irene/examen/ex_recu_24_preg_01
+CMAKE_SOURCE_DIR = /home/irene/examen/examen_ros2/ex_recu_24_preg_01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/irene/examen/build/ex_recu_24_preg_01
+CMAKE_BINARY_DIR = /home/irene/examen/examen_ros2/build/ex_recu_24_preg_01
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/irene/examen/build/ex_recu_24_preg_01 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/irene/examen/ex_recu_24_preg_01 /home/irene/examen/ex_recu_24_preg_01 /home/irene/examen/build/ex_recu_24_preg_01 /home/irene/examen/build/ex_recu_24_preg_01 /home/irene/examen/build/ex_recu_24_preg_01/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/irene/examen/examen_ros2/build/ex_recu_24_preg_01 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/irene/examen/examen_ros2/ex_recu_24_preg_01 /home/irene/examen/examen_ros2/ex_recu_24_preg_01 /home/irene/examen/examen_ros2/build/ex_recu_24_preg_01 /home/irene/examen/examen_ros2/build/ex_recu_24_preg_01 /home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

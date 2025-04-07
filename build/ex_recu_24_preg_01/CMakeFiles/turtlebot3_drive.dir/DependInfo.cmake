@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/irene/examen/ex_recu_24_preg_01/src/turtlebot3_drive.cpp" "/home/irene/examen/build/ex_recu_24_preg_01/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o"
+  "/home/irene/examen/examen_ros2/ex_recu_24_preg_01/src/turtlebot3_drive.cpp" "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/irene/examen/ex_recu_24_preg_01/include"
+  "/home/irene/examen/examen_ros2/ex_recu_24_preg_01/include"
   "/usr/include/gazebo-11"
   "/usr/include/bullet"
   "/usr/include/simbody"

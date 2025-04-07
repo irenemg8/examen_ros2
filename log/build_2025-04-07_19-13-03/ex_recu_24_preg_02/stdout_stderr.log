@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/PKG-INFO
+writing dependency_links to ../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/dependency_links.txt
+writing entry points to ../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/entry_points.txt
+writing requirements to ../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/requires.txt
+writing top-level names to ../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/top_level.txt
+reading manifest file '../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/SOURCES.txt'
+writing manifest file '../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ex_recu_24_preg_02/initial_pose_pub.py -> /home/irene/examen/examen_ros2/build/ex_recu_24_preg_02/build/lib/ex_recu_24_preg_02
+running install
+running install_lib
+copying /home/irene/examen/examen_ros2/build/ex_recu_24_preg_02/build/lib/ex_recu_24_preg_02/initial_pose_pub.py -> /home/irene/examen/examen_ros2/install/ex_recu_24_preg_02/lib/python3.8/site-packages/ex_recu_24_preg_02
+byte-compiling /home/irene/examen/examen_ros2/install/ex_recu_24_preg_02/lib/python3.8/site-packages/ex_recu_24_preg_02/initial_pose_pub.py to initial_pose_pub.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/irene/examen/examen_ros2/install/ex_recu_24_preg_02/lib/python3.8/site-packages/ex_recu_24_preg_02-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info to /home/irene/examen/examen_ros2/install/ex_recu_24_preg_02/lib/python3.8/site-packages/ex_recu_24_preg_02-0.0.0-py3.8.egg-info
+running install_scripts
+Installing initial_pose_pub script to /home/irene/examen/examen_ros2/install/ex_recu_24_preg_02/lib/ex_recu_24_preg_02
+writing list of installed files to '/home/irene/examen/examen_ros2/build/ex_recu_24_preg_02/install.log'

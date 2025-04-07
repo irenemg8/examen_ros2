@@ -26,6 +26,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'initial_pose_pub = ex_recu_24_preg_02.initial_pose_pub:main' #cambiar
         ],
     },
 )

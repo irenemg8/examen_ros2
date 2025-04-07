@@ -1,0 +1,24 @@
+[0.608s] Invoking command in '/home/irene/examen/examen_ros2/ex_recu_24_preg_02': PYTHONPATH=/home/irene/examen/examen_ros2/build/ex_recu_24_preg_02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/irene/examen/examen_ros2/install/ex_recu_24_preg_02/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ex_recu_24_preg_02 build --build-base /home/irene/examen/examen_ros2/build/ex_recu_24_preg_02/build install --record /home/irene/examen/examen_ros2/build/ex_recu_24_preg_02/install.log --single-version-externally-managed install_data
+[0.794s] running egg_info
+[0.795s] writing ../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/PKG-INFO
+[0.795s] writing dependency_links to ../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/dependency_links.txt
+[0.795s] writing entry points to ../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/entry_points.txt
+[0.795s] writing requirements to ../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/requires.txt
+[0.795s] writing top-level names to ../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/top_level.txt
+[0.821s] reading manifest file '../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/SOURCES.txt'
+[0.822s] writing manifest file '../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info/SOURCES.txt'
+[0.822s] running build
+[0.822s] running build_py
+[0.822s] copying ex_recu_24_preg_02/initial_pose_pub.py -> /home/irene/examen/examen_ros2/build/ex_recu_24_preg_02/build/lib/ex_recu_24_preg_02
+[0.822s] running install
+[0.823s] running install_lib
+[0.824s] copying /home/irene/examen/examen_ros2/build/ex_recu_24_preg_02/build/lib/ex_recu_24_preg_02/initial_pose_pub.py -> /home/irene/examen/examen_ros2/install/ex_recu_24_preg_02/lib/python3.8/site-packages/ex_recu_24_preg_02
+[0.824s] byte-compiling /home/irene/examen/examen_ros2/install/ex_recu_24_preg_02/lib/python3.8/site-packages/ex_recu_24_preg_02/initial_pose_pub.py to initial_pose_pub.cpython-38.pyc
+[0.825s] running install_data
+[0.825s] running install_egg_info
+[0.827s] removing '/home/irene/examen/examen_ros2/install/ex_recu_24_preg_02/lib/python3.8/site-packages/ex_recu_24_preg_02-0.0.0-py3.8.egg-info' (and everything under it)
+[0.827s] Copying ../build/ex_recu_24_preg_02/ex_recu_24_preg_02.egg-info to /home/irene/examen/examen_ros2/install/ex_recu_24_preg_02/lib/python3.8/site-packages/ex_recu_24_preg_02-0.0.0-py3.8.egg-info
+[0.828s] running install_scripts
+[0.841s] Installing initial_pose_pub script to /home/irene/examen/examen_ros2/install/ex_recu_24_preg_02/lib/ex_recu_24_preg_02
+[0.841s] writing list of installed files to '/home/irene/examen/examen_ros2/build/ex_recu_24_preg_02/install.log'
+[0.860s] Invoked command in '/home/irene/examen/examen_ros2/ex_recu_24_preg_02' returned '0': PYTHONPATH=/home/irene/examen/examen_ros2/build/ex_recu_24_preg_02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/irene/examen/examen_ros2/install/ex_recu_24_preg_02/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ex_recu_24_preg_02 build --build-base /home/irene/examen/examen_ros2/build/ex_recu_24_preg_02/build install --record /home/irene/examen/examen_ros2/build/ex_recu_24_preg_02/install.log --single-version-externally-managed install_data

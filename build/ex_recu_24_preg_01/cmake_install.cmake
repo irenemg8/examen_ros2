@@ -1,8 +1,8 @@
-# Install script for directory: /home/irene/examen/ex_recu_24_preg_01
+# Install script for directory: /home/irene/examen/examen_ros2/ex_recu_24_preg_01
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/irene/examen/install/ex_recu_24_preg_01")
+  set(CMAKE_INSTALL_PREFIX "/home/irene/examen/examen_ros2/install/ex_recu_24_preg_01")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ex_recu_24_preg_01/turtlebot3_drive"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ex_recu_24_preg_01" TYPE EXECUTABLE FILES "/home/irene/examen/build/ex_recu_24_preg_01/turtlebot3_drive")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ex_recu_24_preg_01" TYPE EXECUTABLE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/turtlebot3_drive")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ex_recu_24_preg_01/turtlebot3_drive" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ex_recu_24_preg_01/turtlebot3_drive")
     file(RPATH_CHANGE
@@ -59,19 +59,19 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01/" TYPE DIRECTORY FILES
-    "/home/irene/examen/ex_recu_24_preg_01/launch"
-    "/home/irene/examen/ex_recu_24_preg_01/world"
-    "/home/irene/examen/ex_recu_24_preg_01/urdf"
-    "/home/irene/examen/ex_recu_24_preg_01/models"
+    "/home/irene/examen/examen_ros2/ex_recu_24_preg_01/launch"
+    "/home/irene/examen/examen_ros2/ex_recu_24_preg_01/world"
+    "/home/irene/examen/examen_ros2/ex_recu_24_preg_01/urdf"
+    "/home/irene/examen/examen_ros2/ex_recu_24_preg_01/models"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ex_recu_24_preg_01")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ex_recu_24_preg_01")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ex_recu_24_preg_01")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ex_recu_24_preg_01")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -79,7 +79,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01/environment" TYPE FILE FILES "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01/environment" TYPE FILE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -87,50 +87,50 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01/environment" TYPE FILE FILES "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01/environment" TYPE FILE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01" TYPE FILE FILES "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01" TYPE FILE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01" TYPE FILE FILES "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01" TYPE FILE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01" TYPE FILE FILES "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01" TYPE FILE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01" TYPE FILE FILES "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01" TYPE FILE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01" TYPE FILE FILES "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01" TYPE FILE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_index/share/ament_index/resource_index/packages/ex_recu_24_preg_01")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_index/share/ament_index/resource_index/packages/ex_recu_24_preg_01")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01/cmake" TYPE FILE FILES "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01/cmake" TYPE FILE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01/cmake" TYPE FILE FILES "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01/cmake" TYPE FILE FILES "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01/cmake" TYPE FILE FILES
-    "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_core/ex_recu_24_preg_01Config.cmake"
-    "/home/irene/examen/build/ex_recu_24_preg_01/ament_cmake_core/ex_recu_24_preg_01Config-version.cmake"
+    "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_core/ex_recu_24_preg_01Config.cmake"
+    "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/ament_cmake_core/ex_recu_24_preg_01Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01" TYPE FILE FILES "/home/irene/examen/ex_recu_24_preg_01/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_recu_24_preg_01" TYPE FILE FILES "/home/irene/examen/examen_ros2/ex_recu_24_preg_01/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -141,5 +141,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/irene/examen/build/ex_recu_24_preg_01/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/irene/examen/examen_ros2/build/ex_recu_24_preg_01/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

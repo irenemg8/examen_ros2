@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000191] (-) JobUnselected: {'identifier': 'ex_recu_24_preg_01'}
-[0.000273] (-) JobUnselected: {'identifier': 'ex_recu_24_preg_02'}
-[0.000419] (-) EventReactorShutdown: {}
